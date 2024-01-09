@@ -16,3 +16,9 @@ function userData (age:number =18,name:string="ramu"):void{
 
 //userData(21,"Ravi");
 userData(23)
+
+var users : string[] = ["Ram", "Shyam", "Mohan"];
+
+//users --> undefined
+///users && users.length
+console.log(users?.length);
